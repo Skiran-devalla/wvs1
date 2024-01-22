@@ -1,0 +1,21 @@
+Host - Checks for existence of IPV6 address.
+------------------------
+
+vulnweb.com has address 44.228.249.3
+
+
+Nmap - Fast Scan [Only Few Port Checks]
+------------------------
+
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-11-13 05:20 EST
+Nmap scan report for vulnweb.com (44.228.249.3)
+Host is up (0.32s latency).
+rDNS record for 44.228.249.3: 3.249.228.44.in-addr.arpa
+Not shown: 99 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 10.72 seconds
+
+

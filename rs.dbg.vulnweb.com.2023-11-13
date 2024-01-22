@@ -1,0 +1,72 @@
+SSLyze - Checks for ZLib Deflate Compression.
+------------------------
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   vulnweb.com:443           => ERROR: Connection to the server timed out; discarding scan.
+
+ SCANS COMPLETED IN 5.25362 S
+ ----------------------------
+
+
+Nikto - Checks for Apache Expect XSS Header.
+------------------------
+
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          44.228.249.3
++ Target Hostname:    vulnweb.com
++ Target Port:        80
++ Start Time:         2023-11-13 05:16:54 (GMT-5)
+---------------------------------------------------------------------------
++ Server: nginx/1.19.0
++ 240 requests: 0 error(s) and 0 item(s) reported on remote host
++ End Time:           2023-11-13 05:18:07 (GMT-5) (73 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+
+Host - Checks for existence of IPV6 address.
+------------------------
+
+vulnweb.com has address 44.228.249.3
+
+
+Nmap - Checks for Remote Desktop Service over UDP
+------------------------
+
+You requested a scan type which requires root privileges.
+QUITTING!
+
+
+Checks for SMB Service over TCP
+------------------------
+
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-11-13 05:18 EST
+Nmap done: 1 IP address (1 host up) scanned in 3.35 seconds
+
+
+WebDAV - Checks if WEBDAV enabled on Home directory.
+------------------------
+
+OPEN		FAIL:	http://vulnweb.com	Server response: 405 Not Allowed
+********************************************************
+ Testing DAV connection
+
+
+Nmap [FREAK] - Checks only for FREAK Vulnerability.
+------------------------
+
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-11-13 05:18 EST
+Nmap scan report for vulnweb.com (44.228.249.3)
+Host is up.
+rDNS record for 44.228.249.3: 3.249.228.44.in-addr.arpa
+
+PORT    STATE    SERVICE
+443/tcp filtered https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.18 seconds
+
+
