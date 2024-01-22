@@ -1378,10 +1378,8 @@ if args_namespace.nospinner:
 
 if args_namespace.help or (not args_namespace.update \
     and not args_namespace.target):
-    logo()
     helper()
 elif args_namespace.update:
-    logo()
     print("wvs1 is updating....Please wait.\n")
     spinner.start()
     # Checking internet connectivity first...
